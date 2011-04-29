@@ -5,7 +5,6 @@ jQuery.fn.jQuote = function(options) {
         blockQuoteClass: 'jquote-block'
     };
     var settings = $.extend({}, defaults, options);
-
     return this.each(function() {
         var $t = $(this),
             allQuotes = $t.find(settings.quoteClass);
